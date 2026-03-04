@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://twds.dl.sourceforge.net/project/windows-11/ISO/21996.1.210529-1541.co_release_CLIENT_CONSUMER_x64FRE_en-us.iso?viasf=1"
+      VERSION: "https://dl.bobpony.com/windows/10/archive/1803/en_windows_10_business_editions_version_1803_updated_aug_2019_x64_dvd_943e6230.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
