@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://myvs.download.prss.microsoft.com/dbazure/en-us_windows_11_business_editions_version_22h2_updated_sep_2024_x64_dvd_caf884f5.iso?t=509524f3-a9da-4b2a-b244-fdba50e72705&P1=1775131985&P2=601&P3=2&P4=GQHNklQ%2Fjommfr34NmxzGTLpJ1%2Bun4gYM8pGHFTOhPsdKbYc1XNiOkVVdg2lcJCNmi0%2BQALWNxb0Im4Hryc2OIpqNIAw9A%2FMcxpI76e9%2FC7jak1osHjKIUqjEQ8Czi8Y7%2FmvMDkRapiZ4POrdybJcIBT6iBBYkjWU%2BWxWJhUB7X3yMPIolgstlHtxuAL%2BaG2QSd2PqRrh5U0JJkiqeBt1kWgknY1SvlxhYfRqPfV%2BGBVWtZpDSy9VL3G%2FO%2FLea2%2B%2BiPqm6eUXR3Oxng4xZ2OMO8YK2ytGxoEXCu1%2FPHZj92ezcwX4ygjRk%2Ba1j%2FuqIO%2Fzv3ObjeUYFUwZ%2FZQ8%2BcIPQ%3D%3D&su=1"
+      VERSION: "https://archive.org/download/windows-11-22-h-2_20240818/Windows%2011%2022H2.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
